@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    color: #F9FAF8;
+}
+
+.header-logo {
+    margin-left: 50px;
+    font-size:24px;
+}
+
+.header-list {
+    display:flex;
+    margin-right: 50px;
+}
+
+.header-list li {
+    display: inline-flex;
+    margin-right: 10px;
+}
