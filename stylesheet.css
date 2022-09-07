@@ -20,9 +20,74 @@ body {
 .header-list {
     display:flex;
     margin-right: 50px;
+    font-size: small;
 }
 
 .header-list li {
     display: inline-flex;
-    margin-right: 10px;
+    margin-right: 25px;
+}
+
+.main-content {
+    background-color: #1F2937;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 25px;
+}
+
+.text-content {
+    dislpay:flex;
+    flex-wrap: wrap;
+    margin:50px;
+    color: #F9FAF8;
+    padding-left: 50px;
+}
+
+.handshake-dev {
+    margin-right:200px;
+}
+
+.handshake {
+    height:200px;
+    width:330px;
+}
+
+.text-content button {
+    background-color: #3882F6;
+    border-radius:25px;
+    width:85px;
+    height:30px;
+}
+
+.random-info-section {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px
+}
+
+.random-info-section .blue-box {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+.random-info-section .blue-box img {
+height:100px;
+width:160px;
+}
+
+.random-info-section .blue-box p {
+    text-align: center;
+    }
+
+.img-and-txt {
+    display:flex;
+    margin 50px;
 }
